@@ -1,0 +1,15 @@
+{
+    "domain": "elcreativoweb.com",
+    "base_url": "https:\/\/elcreativoweb.com",
+    "pages": 357,
+    "assets": 1009,
+    "total_files": 1366,
+    "total_size_mb": 271.41,
+    "output_dir": "\/tmp\/static-export\/elcreativoweb.com",
+    "pages_failed": [
+        "https:\/\/elcreativoweb.com\/atencion-al-cliente\/inteligencia-artificial-en-e-commers-siglo-21",
+        "https:\/\/elcreativoweb.com\/comments\/feed\/"
+    ],
+    "assets_failed": [],
+    "generated_at": "2026-05-21 16:10:43"
+}
