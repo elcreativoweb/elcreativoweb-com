@@ -108,19 +108,33 @@ div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-to
 <meta name="generator" content="WordPress 7.1.2" />
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="+ujPzG2AdFCJbbUZLb+4VQ" type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1"></script>
 
-<meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC9lbGNyZWF0aXZvd2ViLWNvbS5lY3d3ZWJzLmNvbT90aS1vbmxpbmUtdXNlcnMtZ29vZ2xlPTEmYW1wO3A9JTJGY2F0ZWdvcnklMkZzZW8teS1wb3NpY2lvbmFtaWVudG8lMkZwYWdlJTJGNSUyRiZhbXA7X3dwbm9uY2U9MGI2MDU3ZGUzOCJ9" /><script type="text/javascript">var elementskit_module_parallax_url = "/wp-content/plugins/elementskit/modules/parallax/";</script><link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-32x32.png" sizes="32x32" />
+<meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC9lbGNyZWF0aXZvd2ViLWNvbS5lY3d3ZWJzLmNvbT90aS1vbmxpbmUtdXNlcnMtZ29vZ2xlPTEmYW1wO3A9JTJGY2F0ZWdvcnklMkZzZW8teS1wb3NpY2lvbmFtaWVudG8lMkZwYWdlJTJGNSUyRiZhbXA7X3dwbm9uY2U9YTc0YjJhMTEwYiJ9" /><script type="text/javascript">var elementskit_module_parallax_url = "/wp-content/plugins/elementskit/modules/parallax/";</script><link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-32x32.png" sizes="32x32" />
 <link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/wp-content/uploads/2025/06/cropped-favicon-180x180.png" />
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2025/06/cropped-favicon-270x270.png" />
 <style id="wp-custom-css">
+/* =========================================================
+   EL CREATIVO WEB - CSS GENERAL DEFINITIVO
+   Versión consolidada
+========================================================= */
+
+
+/* =========================================================
+   1. CAJA CON SCROLL
+   Este scroll es intencional y SOLO afecta .cajadescroll
+========================================================= */
+
 .cajadescroll {
     height: 230px !important;
-    overflow-y: scroll !important; /* Forzar el estado de scroll */
-    -webkit-overflow-scrolling: touch; /* Suavidad en iPhone */
-    padding-right: 15px; /* Espacio para que la barra no tape el texto */
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+    padding-right: 15px;
+    position: relative;
+
+    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 }
 
-/* Forzar que la barra tenga dimensiones reales */
 .cajadescroll::-webkit-scrollbar {
     -webkit-appearance: none;
     width: 10px;
@@ -128,133 +142,236 @@ div#ez-toc-container .ez-toc-title {font-size: 120%;}div#ez-toc-container .ez-to
     display: block !important;
 }
 
-/* Pista: Ponerle un color de fondo gris claro ayuda a que se vea el "camino" */
 .cajadescroll::-webkit-scrollbar-track {
-    background: #f1f1f1 !important; 
+    background: #f1f1f1 !important;
     border-radius: 10px;
 }
 
-/* El "cosito" (Thumb): Color oscuro constante */
 .cajadescroll::-webkit-scrollbar-thumb {
     background-color: #022b3a !important;
     border-radius: 10px;
-    border: 2px solid #f1f1f1; /* Crea un margen para que resalte más */
-}
-.cajadescroll {
-    position: relative;
-    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+    border: 2px solid #f1f1f1;
 }
 
 
+/* =========================================================
+   2. TIPOGRAFÍAS
+========================================================= */
 
-
-.elementor-1901 .elementor-element.elementor-element-70359acd .elementskit-navbar-nav > li > a .elementskit-submenu-indicator {color:#000 !important;}
-
-.elementor-1901 .elementor-element.elementor-element-70359acd .elementskit-navbar-nav > li > a{font-family:'karla' !important;}
-
-.elementor-2006 .elementor-element.elementor-element-f82629b .elementor-icon-list-item > .elementor-icon-list-text, .elementor-2006 .elementor-element.elementor-element-f82629b .elementor-icon-list-item > a {font-family:"roboto","karla" !important;}
-
-.elementor-2006 .elementor-element.elementor-element-edda9e8 .elementor-icon-list-item {font-family:"roboto","karla" !important;}
-
-.elementor-54 .elementor-element.elementor-element-c21806a .elementor-post__title, .elementor-54 .elementor-element.elementor-element-c21806a .elementor-post__title a{font-family:"roboto","karla" !important;}
-
-.elementor-2673 .elementor-element.elementor-element-7ebe9a8d .elementskit-navbar-nav > li > a {font-family:"roboto","karla" !important;}
-
-p, .entry-content p{font-family:"roboto","karla" !important;}
-
-.elementor-3228 .elementor-element.elementor-element-711ceb9 .elementor-post__title, .elementor-3228 .elementor-element.elementor-element-711ceb9 .elementor-post__title a{font-family:"roboto","karla" !important;}
-
-form.fluent_form_5 .ff-btn-submit:not(.ff_btn_no_style){
-	
-	background-color:#7cac14 !important;
+.elementor-1901
+.elementor-element.elementor-element-70359acd
+.elementskit-navbar-nav > li > a {
+    font-family: 'karla' !important;
 }
 
-.ff-default .ff-el-form-control{
-	padding:8px 15px !important; 
-	margin-top:-5px !important;
-	border-radius:8px !important;
+.elementor-2006
+.elementor-element.elementor-element-f82629b
+.elementor-icon-list-item > .elementor-icon-list-text,
+
+.elementor-2006
+.elementor-element.elementor-element-f82629b
+.elementor-icon-list-item > a {
+    font-family: "roboto", "karla" !important;
+}
+
+.elementor-2006
+.elementor-element.elementor-element-edda9e8
+.elementor-icon-list-item {
+    font-family: "roboto", "karla" !important;
+}
+
+.elementor-54
+.elementor-element.elementor-element-c21806a
+.elementor-post__title,
+
+.elementor-54
+.elementor-element.elementor-element-c21806a
+.elementor-post__title a {
+    font-family: "roboto", "karla" !important;
+}
+
+.elementor-2673
+.elementor-element.elementor-element-7ebe9a8d
+.elementskit-navbar-nav > li > a {
+    font-family: "roboto", "karla" !important;
+}
+
+.elementor-3228
+.elementor-element.elementor-element-711ceb9
+.elementor-post__title,
+
+.elementor-3228
+.elementor-element.elementor-element-711ceb9
+.elementor-post__title a {
+    font-family: "roboto", "karla" !important;
+}
+
+p,
+.entry-content p {
+    font-family: "roboto", "karla" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.ekit-heading,
+.elementskit-section-subtitle,
+.ekit-heading--title {
+    font-family: 'Rubik', sans-serif;
 }
 
 
-.elementor-2354 .elementor-element.elementor-element-6dad6c7{
-	box-shadow:1px 1px 1px 1px rgba(0,0,0,0.5) !important;
-	padding:0px 5px 0px 0px !important;
-	
+/* =========================================================
+   3. MENÚ / ELEMENTSKIT
+========================================================= */
+
+.elementor-1901
+.elementor-element.elementor-element-70359acd
+.elementskit-navbar-nav > li > a
+.elementskit-submenu-indicator {
+    color: #000 !important;
 }
 
-.elementor-5162 .elementor-element.elementor-element-78a80f3 {
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+.elementor-2673
+.elementor-element.elementor-element-3a5be5d
+.elementskit-navbar-nav > li > a
+.elementskit-submenu-indicator {
+    color: #000 !important;
+    fill: #000 !important;
+}
+
+.elementor-1901
+.elementor-element.elementor-element-a522ece
+.elementskit-navbar-nav > li > a
+.elementskit-submenu-indicator {
+    color: #000 !important;
+    fill: #000 !important;
+}
+
+.elementor-1901
+.elementor-element.elementor-element-a522ece
+.elementskit-navbar-nav
+.elementskit-submenu-panel {
+    min-width: 120px !important;
+}
+
+
+/* =========================================================
+   4. FLUENT FORM
+========================================================= */
+
+form.fluent_form_5 .ff-btn-submit:not(.ff_btn_no_style) {
+    background-color: #7cac14 !important;
+}
+
+.ff-default .ff-el-form-control {
+    padding: 8px 15px !important;
+    margin-top: -5px !important;
+    border-radius: 8px !important;
+}
+
+
+/* =========================================================
+   5. CAJAS / ELEMENTOS
+========================================================= */
+
+.elementor-2354
+.elementor-element.elementor-element-6dad6c7 {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5) !important;
+    padding: 0 5px 0 0 !important;
+}
+
+.elementor-5162
+.elementor-element.elementor-element-78a80f3 {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 1px 1px 1px 1px;
+    padding: 1px;
     overflow: visible;
+    box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+
+/* =========================================================
+   6. LISTAS
+========================================================= */
+
+ol,
+ul {
+    padding-left: 0;
+    margin: 0 0 1em 2em !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
-}
 
-/* Aplica la fuente Rubik a los elementos especificados */
-.ekit-heading, 
-.elementskit-section-subtitle,
-.ekit-heading--title {
-  font-family: 'Rubik', sans-serif;
-}
+/* =========================================================
+   7. ENLACES
+========================================================= */
 
-ol, ul {
-    padding-left: 0rem;
-}
-
-ol, ul {
-    margin: 0 0 1.0em 2em !important;
-}
-
-#enlaces-verdes a{
+#enlaces-verdes a {
     color: #7CAC14;
 }
 
-#enlaces-azules a{
+#enlaces-azules a {
     color: #0c376c;
 }
 
 
-.elementor-kit-1136 button:hover, .elementor-kit-1136 button:focus, .elementor-kit-1136 input[type="button"]:hover, .elementor-kit-1136 input[type="button"]:focus, .elementor-kit-1136 input[type="submit"]:hover, .elementor-kit-1136 input[type="submit"]:focus, .elementor-kit-1136 .elementor-button:hover, .elementor-kit-1136 .elementor-button:focus{background-color: #85898f;}
+/* =========================================================
+   8. BOTONES
+========================================================= */
 
-
-.elementor-kit-1136 button, .elementor-kit-1136 input[type="button"], .elementor-kit-1136 input[type="submit"], .elementor-kit-1136 .elementor-button}{background-color:#e8e8e8 !important;
+.elementor-kit-1136 button,
+.elementor-kit-1136 input[type="button"],
+.elementor-kit-1136 input[type="submit"],
+.elementor-kit-1136 .elementor-button {
+    background-color: #e8e8e8 !important;
 }
 
-.elementor-2673 .elementor-element.elementor-element-3a5be5d .elementskit-navbar-nav > li > a .elementskit-submenu-indicator{color:#000 !important; 
-fill:#000 !important;
+.elementor-kit-1136 button:hover,
+.elementor-kit-1136 button:focus,
+.elementor-kit-1136 input[type="button"]:hover,
+.elementor-kit-1136 input[type="button"]:focus,
+.elementor-kit-1136 input[type="submit"]:hover,
+.elementor-kit-1136 input[type="submit"]:focus,
+.elementor-kit-1136 .elementor-button:hover,
+.elementor-kit-1136 .elementor-button:focus {
+    background-color: #85898f;
 }
 
-.elementor-1901 .elementor-element.elementor-element-a522ece .elementskit-navbar-nav > li > a .elementskit-submenu-indicator{color:#000 !important; 
-fill:#000 !important;
-}
 
+/* =========================================================
+   9. TABLAS GRID
+========================================================= */
 
 .table-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 @media (max-width: 600px) {
-  .table-grid {
-    grid-template-columns: 1fr;
-  }
-  .table-grid > div {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-  }
+
+    .table-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .table-grid > div {
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+    }
 }
-.elementor-1901 .elementor-element.elementor-element-a522ece .elementskit-navbar-nav .elementskit-submenu-panel{min-width:120px !important;}
+
+
+/* =========================================================
+   10. LCP
+========================================================= */
 
 .lcp-title,
 .lcp-title .elementor-heading-title {
@@ -265,17 +382,375 @@ fill:#000 !important;
     animation: none !important;
 }
 
-/* Header flotante en tablet: elimina la franja blanca */
+
+/* =========================================================
+   11. HEADER TABLET
+========================================================= */
+
 @media (min-width: 768px) and (max-width: 1024px) {
-  .elementor-1901 .elementor-element.elementor-element-58c3022 {
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    margin-bottom: 0 !important;
-    padding-top: 10px !important;
-  }
+
+    .elementor-1901
+    .elementor-element.elementor-element-58c3022 {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        margin-bottom: 0 !important;
+        padding-top: 10px !important;
+    }
+}
+
+
+/* =========================================================
+   12. VIEWPORT / SCROLL GENERAL
+
+   IMPORTANTE:
+   HTML controla el scroll vertical.
+   BODY NO crea una segunda barra.
+========================================================= */
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+
+    min-height: 100%;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+
+    /*
+     * Confirmado mediante DevTools:
+     * evita que BODY reserve su propio scrollbar.
+     */
+    overflow: visible !important;
+
+    min-height: 100%;
+}
+
+
+/* =========================================================
+   13. MÓVIL / IPHONE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /*
+     * HTML conserva el único scroll vertical.
+     */
+    html {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+    /*
+     * BODY crece normalmente.
+     * No genera scrollbar propio.
+     */
+    body {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        overflow: visible !important;
+    }
+
+    /*
+     * Contenedores generales.
+     * Solo evitamos que excedan el viewport.
+     */
+    #page,
+    .site {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    /*
+     * HERO
+     * Elemento detectado anteriormente.
+     */
+    .elementor-element-c57d0a7 {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .elementor-element-c57d0a7 > .elementor-widget-wrap {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    /*
+     * Multimedia.
+     */
+    img,
+    video,
+    iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* =========================================================
+   14. LOGO HEADER - RESPONSIVE
+   Widget exacto: 12c9b54
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /*
+     * Columna donde está ubicado el logo.
+     */
+    .elementor-1901
+    .elementor-element.elementor-element-e899f80 {
+        overflow: visible !important;
+    }
+
+    /*
+     * Widget exacto del logo.
+     */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54 {
+        position: relative !important;
+
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        transform: none !important;
+        overflow: visible !important;
+
+        z-index: 1000 !important;
+    }
+
+    /*
+     * Contenedor del logo.
+     */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54
+    .elementor-widget-container {
+        margin: 0 !important;
+        padding: 0 !important;
+
+        overflow: visible !important;
+    }
+
+    /*
+     * Imagen exacta del logo.
+     */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54
+    img {
+        display: block !important;
+
+        width: 155px !important;
+        max-width: 155px !important;
+        height: auto !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+
+        object-fit: contain !important;
+        transform: none !important;
+    }
+}
+
+
+/* =========================================================
+   15. MÓVILES PEQUEÑOS
+========================================================= */
+
+@media (max-width: 390px) {
+
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54
+    img {
+        width: 140px !important;
+        max-width: 140px !important;
+    }
+}
+
+/* =========================================================
+   FIX HEADER MOBILE - FRANJA SUPERIOR + LOGO
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Header principal */
+    .elementor-1901
+    .elementor-element.elementor-element-58c3022 {
+        position: absolute !important;
+
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 !important;
+        padding: 12px 20px 0 20px !important;
+
+        z-index: 9999 !important;
+
+        background: transparent !important;
+        overflow: visible !important;
+    }
+
+    /* Columnas internas del header */
+    .elementor-1901
+    .elementor-element.elementor-element-58c3022
+    > .elementor-container {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin: 0 auto !important;
+        padding: 0 !important;
+
+        align-items: flex-start !important;
+    }
+
+    /* Columna del logo */
+    .elementor-1901
+    .elementor-element.elementor-element-e899f80 {
+        overflow: visible !important;
+        z-index: 10000 !important;
+    }
+
+    /* Widget del logo */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54 {
+        position: relative !important;
+
+        margin: 0 !important;
+        padding: 0 !important;
+
+        top: 0 !important;
+
+        overflow: visible !important;
+        z-index: 10001 !important;
+    }
+
+    /* Imagen */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54
+    img {
+        display: block !important;
+
+        width: 155px !important;
+        max-width: 155px !important;
+        height: auto !important;
+
+        margin: 0 !important;
+
+        object-fit: contain !important;
+    }
+}
+
+
+/* iPhone pequeño */
+@media (max-width: 390px) {
+
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54
+    img {
+        width: 140px !important;
+        max-width: 140px !important;
+    }
+}
+
+/* =========================================================
+   ALINEAR LOGO + MENÚ HAMBURGUESA EN MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Fila principal del header */
+    .elementor-1901
+    .elementor-element.elementor-element-58c3022
+    > .elementor-container {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+        flex-wrap: nowrap !important;
+    }
+
+    /* Columna del logo */
+    .elementor-1901
+    .elementor-element.elementor-element-e899f80 {
+        align-self: flex-start !important;
+    }
+
+    /* Logo */
+    .elementor-1901
+    .elementor-element.elementor-element-12c9b54 {
+        margin: 0 !important;
+        padding: 0 !important;
+        top: 0 !important;
+    }
+
+    /* 
+       Botón / columna del menú:
+       lo subimos para quedar a la altura del logo.
+    */
+    .elementor-1901
+    .elementskit-menu-hamburger {
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 0 !important;
+        transform: none !important;
+        z-index: 10002 !important;
+    }
+
+    /* Widget de navegación */
+    .elementor-1901
+    .elementor-widget-ekit-nav-menu {
+        align-self: flex-start !important;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        z-index: 10002 !important;
+    }
 }
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
@@ -1380,7 +1855,7 @@ jQuery.uiBackCompat = true;
 </script>
 <script id="jquery-ui-core-js" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2" defer></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"/wp-admin\/admin-ajax.php","uploadUrl":"/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"dcbd1541fe","atomicFormsSendForm":"657bac6b80"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Seo y posicionamiento - El Creativo Web","excerpt":""}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"/wp-admin\/admin-ajax.php","uploadUrl":"/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"eb16da361c","atomicFormsSendForm":"0339c86a8f"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Seo y posicionamiento - El Creativo Web","excerpt":""}};
 //# sourceURL=elementor-frontend-js-before
 </script>
 <script id="elementor-frontend-js" src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1" defer></script>
@@ -1406,13 +1881,13 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"/wp-admin\/admin-ajax.php","nonce":"9c471a854b","urls":{"assets":"/wp-content\/plugins\/elementor-pro\/assets\/","rest":"/wp-json\/"},"settings":{"lazy_load_background_images":false},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"es_CO","app_id":""},"lottie":{"defaultAnimationUrl":"/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"/wp-admin\/admin-ajax.php","nonce":"34fb33e70d","urls":{"assets":"/wp-content\/plugins\/elementor-pro\/assets\/","rest":"/wp-json\/"},"settings":{"lazy_load_background_images":false},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"es_CO","app_id":""},"lottie":{"defaultAnimationUrl":"/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 //# sourceURL=elementor-pro-frontend-js-before
 </script>
 <script id="elementor-pro-frontend-js" src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.0" defer></script>
 <script id="pro-elements-handlers-js" src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.0" defer></script>
 <script id="elementskit-elementor-js-extra">
-var ekit_config = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"35cd9f8b91","errorMessage":"Something went wrong. Please try again."};
+var ekit_config = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"9e573b1c4d","errorMessage":"Something went wrong. Please try again."};
 //# sourceURL=elementskit-elementor-js-extra
 </script>
 <script id="elementskit-elementor-js" src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.9.6" defer></script>
