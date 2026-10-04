@@ -1412,6 +1412,48 @@ body {
         z-index: 10002 !important;
     }
 }
+
+/* =========================================================
+   FIX MENÚ MÓVIL ABIERTO - ELEMENTSKIT
+   Evita X + hamburguesa superpuestos
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Panel móvil por encima del header */
+    .elementor-1901 .elementskit-menu-container {
+        z-index: 10050 !important;
+    }
+
+    /* Botón X del panel abierto */
+    .elementor-1901 .elementskit-menu-close {
+        position: relative !important;
+        z-index: 10060 !important;
+    }
+
+    /*
+     * Cuando ElementsKit abre el menú añade
+     * la clase active al contenedor.
+     * En ese momento ocultamos la hamburguesa exterior.
+     */
+    .elementor-1901
+    .elementskit-menu-container.active
+    ~ .elementskit-menu-hamburger,
+
+    .elementor-1901
+    .elementskit-menu-container.active
+    + .elementskit-menu-hamburger {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* El panel abierto debe poder recibir los clics */
+    .elementor-1901
+    .elementskit-menu-container.active {
+        pointer-events: auto !important;
+    }
+}
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
 
@@ -2568,12 +2610,12 @@ function show(id, btn) {
 						<div class="elementor-element elementor-element-2cd56e70 elementor-widget elementor-widget-elementskit-accordion" data-id="2cd56e70" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
-        <div class="elementskit-accordion accoedion-primary" id="accordion-6ac1a44d55735">
+        <div class="elementskit-accordion accoedion-primary" id="accordion-6ac1d89865106">
 
             
                 <div class="elementskit-card active">
                     <div class="elementskit-card-header" id="primaryHeading-0-2cd56e70">
-                        <a href="#collapse-13f9c826ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-13f9c826ac1a44d55735" aria-expanded="true" aria-controls="Collapse-13f9c826ac1a44d55735">
+                        <a href="#collapse-13f9c826ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-13f9c826ac1d89865106" aria-expanded="true" aria-controls="Collapse-13f9c826ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2591,7 +2633,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-13f9c826ac1a44d55735" class=" show collapse" aria-labelledby="primaryHeading-0-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-13f9c826ac1d89865106" class=" show collapse" aria-labelledby="primaryHeading-0-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Ofrecemos desarrollo completo de tiendas online con WooCommerce en WordPress, incluyendo diseño personalizado, configuración de productos, integración de pasarelas de pago, envíos, optimización SEO y estrategias para aumentar las ventas.</p>                        </div>
@@ -2603,7 +2645,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-1-2cd56e70">
-                        <a href="#collapse-b6b64726ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b6b64726ac1a44d55735" aria-expanded="false" aria-controls="Collapse-b6b64726ac1a44d55735">
+                        <a href="#collapse-b6b64726ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b6b64726ac1d89865106" aria-expanded="false" aria-controls="Collapse-b6b64726ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2621,7 +2663,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-b6b64726ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-1-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-b6b64726ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-1-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>WooCommerce es ideal si buscas flexibilidad, control total y personalización. Evaluamos tu tipo de negocio, presupuesto y objetivos para recomendarte si WordPress ecommerce es la mejor opción frente a otras plataformas como Shopify.</p>                        </div>
@@ -2633,7 +2675,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-2-2cd56e70">
-                        <a href="#collapse-ad7cbea6ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ad7cbea6ac1a44d55735" aria-expanded="false" aria-controls="Collapse-ad7cbea6ac1a44d55735">
+                        <a href="#collapse-ad7cbea6ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ad7cbea6ac1d89865106" aria-expanded="false" aria-controls="Collapse-ad7cbea6ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2651,7 +2693,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-ad7cbea6ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-2-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-ad7cbea6ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-2-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>El tiempo depende del alcance del proyecto, pero una tienda WooCommerce básica puede estar lista en 2 a 4 semanas. Proyectos más personalizados pueden tomar entre 4 y 8 semanas.</p>                        </div>
@@ -2663,7 +2705,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-3-2cd56e70">
-                        <a href="#collapse-12c9fac6ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-12c9fac6ac1a44d55735" aria-expanded="false" aria-controls="Collapse-12c9fac6ac1a44d55735">
+                        <a href="#collapse-12c9fac6ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-12c9fac6ac1d89865106" aria-expanded="false" aria-controls="Collapse-12c9fac6ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2681,7 +2723,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-12c9fac6ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-3-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-12c9fac6ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-3-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, WooCommerce permite gestionar productos, inventario, pedidos y envíos. Además, se puede integrar con operadores logísticos y sistemas externos para automatizar procesos.</p>                        </div>
@@ -2693,7 +2735,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-4-2cd56e70">
-                        <a href="#collapse-56f0e226ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-56f0e226ac1a44d55735" aria-expanded="false" aria-controls="Collapse-56f0e226ac1a44d55735">
+                        <a href="#collapse-56f0e226ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-56f0e226ac1d89865106" aria-expanded="false" aria-controls="Collapse-56f0e226ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2711,7 +2753,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-56f0e226ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-4-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-56f0e226ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-4-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Optimizamos la experiencia de usuario, velocidad de carga, estructura del sitio y proceso de compra. También implementamos estrategias de SEO, publicidad y automatización para aumentar conversiones.</p>                        </div>
@@ -2723,7 +2765,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-5-2cd56e70">
-                        <a href="#collapse-83652426ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-83652426ac1a44d55735" aria-expanded="false" aria-controls="Collapse-83652426ac1a44d55735">
+                        <a href="#collapse-83652426ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-83652426ac1d89865106" aria-expanded="false" aria-controls="Collapse-83652426ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2741,7 +2783,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-83652426ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-5-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-83652426ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-5-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, WooCommerce es seguro si se configura correctamente. Integramos certificados SSL, pasarelas de pago confiables y buenas prácticas de seguridad para proteger la información de tus clientes.</p>                        </div>
@@ -2753,7 +2795,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-6-2cd56e70">
-                        <a href="#collapse-39d3cd26ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-39d3cd26ac1a44d55735" aria-expanded="false" aria-controls="Collapse-39d3cd26ac1a44d55735">
+                        <a href="#collapse-39d3cd26ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-39d3cd26ac1d89865106" aria-expanded="false" aria-controls="Collapse-39d3cd26ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2771,7 +2813,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-39d3cd26ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-6-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-39d3cd26ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-6-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, WooCommerce se integra fácilmente con herramientas como Google Ads, Facebook Ads, email marketing, CRM y automatizaciones para potenciar el crecimiento de tu tienda.</p>                        </div>
@@ -2783,7 +2825,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-7-2cd56e70">
-                        <a href="#collapse-41094f26ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-41094f26ac1a44d55735" aria-expanded="false" aria-controls="Collapse-41094f26ac1a44d55735">
+                        <a href="#collapse-41094f26ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-41094f26ac1d89865106" aria-expanded="false" aria-controls="Collapse-41094f26ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2801,7 +2843,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-41094f26ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-7-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-41094f26ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-7-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Aplicamos optimización de imágenes, caché, hosting adecuado y mejoras técnicas para garantizar que tu ecommerce cargue rápido y ofrezca una buena experiencia al usuario.</p>                        </div>
@@ -2813,7 +2855,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-8-2cd56e70">
-                        <a href="#collapse-d13c3976ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d13c3976ac1a44d55735" aria-expanded="false" aria-controls="Collapse-d13c3976ac1a44d55735">
+                        <a href="#collapse-d13c3976ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d13c3976ac1d89865106" aria-expanded="false" aria-controls="Collapse-d13c3976ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2831,7 +2873,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-d13c3976ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-8-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-d13c3976ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-8-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, configuramos herramientas como Google Analytics y paneles de WooCommerce para que puedas monitorear ventas, tráfico, comportamiento de usuarios y rendimiento del negocio.</p>                        </div>
@@ -2843,7 +2885,7 @@ function show(id, btn) {
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-9-2cd56e70">
-                        <a href="#collapse-59135b76ac1a44d55735" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-59135b76ac1a44d55735" aria-expanded="false" aria-controls="Collapse-59135b76ac1a44d55735">
+                        <a href="#collapse-59135b76ac1d89865106" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-59135b76ac1d89865106" aria-expanded="false" aria-controls="Collapse-59135b76ac1d89865106">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2861,7 +2903,7 @@ function show(id, btn) {
                                                     </a>
                     </div>
 
-                    <div id="Collapse-59135b76ac1a44d55735" class=" collapse" aria-labelledby="primaryHeading-9-2cd56e70" data-parent="#accordion-6ac1a44d55735">
+                    <div id="Collapse-59135b76ac1d89865106" class=" collapse" aria-labelledby="primaryHeading-9-2cd56e70" data-parent="#accordion-6ac1d89865106">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, ofrecemos soporte técnico, mantenimiento, actualizaciones y mejoras continuas para que tu ecommerce en WordPress funcione correctamente y siga creciendo.</p>                        </div>

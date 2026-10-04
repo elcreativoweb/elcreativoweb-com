@@ -779,6 +779,48 @@ body {
         z-index: 10002 !important;
     }
 }
+
+/* =========================================================
+   FIX MENÚ MÓVIL ABIERTO - ELEMENTSKIT
+   Evita X + hamburguesa superpuestos
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Panel móvil por encima del header */
+    .elementor-1901 .elementskit-menu-container {
+        z-index: 10050 !important;
+    }
+
+    /* Botón X del panel abierto */
+    .elementor-1901 .elementskit-menu-close {
+        position: relative !important;
+        z-index: 10060 !important;
+    }
+
+    /*
+     * Cuando ElementsKit abre el menú añade
+     * la clase active al contenedor.
+     * En ese momento ocultamos la hamburguesa exterior.
+     */
+    .elementor-1901
+    .elementskit-menu-container.active
+    ~ .elementskit-menu-hamburger,
+
+    .elementor-1901
+    .elementskit-menu-container.active
+    + .elementskit-menu-hamburger {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* El panel abierto debe poder recibir los clics */
+    .elementor-1901
+    .elementskit-menu-container.active {
+        pointer-events: auto !important;
+    }
+}
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
 

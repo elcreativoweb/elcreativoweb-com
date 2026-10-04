@@ -755,6 +755,48 @@ body {
         z-index: 10002 !important;
     }
 }
+
+/* =========================================================
+   FIX MENÚ MÓVIL ABIERTO - ELEMENTSKIT
+   Evita X + hamburguesa superpuestos
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Panel móvil por encima del header */
+    .elementor-1901 .elementskit-menu-container {
+        z-index: 10050 !important;
+    }
+
+    /* Botón X del panel abierto */
+    .elementor-1901 .elementskit-menu-close {
+        position: relative !important;
+        z-index: 10060 !important;
+    }
+
+    /*
+     * Cuando ElementsKit abre el menú añade
+     * la clase active al contenedor.
+     * En ese momento ocultamos la hamburguesa exterior.
+     */
+    .elementor-1901
+    .elementskit-menu-container.active
+    ~ .elementskit-menu-hamburger,
+
+    .elementor-1901
+    .elementskit-menu-container.active
+    + .elementskit-menu-hamburger {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+    }
+
+    /* El panel abierto debe poder recibir los clics */
+    .elementor-1901
+    .elementskit-menu-container.active {
+        pointer-events: auto !important;
+    }
+}
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
 
@@ -1423,12 +1465,12 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
 				<div class="elementor-element elementor-element-75c853d elementor-widget elementor-widget-elementskit-accordion" data-id="75c853d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
-        <div class="elementskit-accordion accoedion-primary" id="accordion-6ac1a513841b4">
+        <div class="elementskit-accordion accoedion-primary" id="accordion-6ac1d95c1ee98">
 
             
                 <div class="elementskit-card active">
                     <div class="elementskit-card-header" id="primaryHeading-0-75c853d">
-                        <a href="#collapse-0d45fee6ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0d45fee6ac1a513841b4" aria-expanded="true" aria-controls="Collapse-0d45fee6ac1a513841b4">
+                        <a href="#collapse-0d45fee6ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0d45fee6ac1d95c1ee98" aria-expanded="true" aria-controls="Collapse-0d45fee6ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1446,7 +1488,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-0d45fee6ac1a513841b4" class=" show collapse" aria-labelledby="primaryHeading-0-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-0d45fee6ac1d95c1ee98" class=" show collapse" aria-labelledby="primaryHeading-0-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>El hosting es un servicio que proporciona el espacio en un servidor para almacenar los archivos de un sitio web y hacer que sea accesible en Internet. <strong>Necesitas hosting para que tu sitio web esté disponible en línea las 24 horas del día, los 7 días de la semana</strong>, permitiendo que los usuarios lo visiten desde cualquier parte del mundo.</p>                        </div>
@@ -1458,7 +1500,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-1-75c853d">
-                        <a href="#collapse-d7639f56ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d7639f56ac1a513841b4" aria-expanded="false" aria-controls="Collapse-d7639f56ac1a513841b4">
+                        <a href="#collapse-d7639f56ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d7639f56ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-d7639f56ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1476,7 +1518,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-d7639f56ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-1-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-d7639f56ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-1-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Ofrecemos varios tipos de hosting, incluyendo:</p><ul><li><strong>Hosting Compartido</strong>: Recursos compartidos entre varios usuarios en un mismo servidor.</li><li><strong>VPS (Servidor Privado Virtual)</strong>: Servidor virtual independiente con recursos dedicados.</li><li><strong>Hosting Dedicado</strong>: Servidor completo dedicado exclusivamente a un solo cliente.</li><li><strong>Hosting en la Nube</strong>: Infraestructura escalable y flexible alojada en la nube.</li></ul>                        </div>
@@ -1488,7 +1530,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-2-75c853d">
-                        <a href="#collapse-b3831ed6ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b3831ed6ac1a513841b4" aria-expanded="false" aria-controls="Collapse-b3831ed6ac1a513841b4">
+                        <a href="#collapse-b3831ed6ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b3831ed6ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-b3831ed6ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1506,7 +1548,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-b3831ed6ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-2-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-b3831ed6ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-2-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>La cantidad de espacio de almacenamiento y ancho de banda necesarios depende del tamaño de tu sitio web y del tráfico previsto. Recomendamos <strong>evaluar tus necesidades actuales y previstas para determinar la cantidad adecuada de recursos</strong>.</p>                        </div>
@@ -1518,7 +1560,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-3-75c853d">
-                        <a href="#collapse-2f8814b6ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2f8814b6ac1a513841b4" aria-expanded="false" aria-controls="Collapse-2f8814b6ac1a513841b4">
+                        <a href="#collapse-2f8814b6ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2f8814b6ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-2f8814b6ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1536,7 +1578,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-2f8814b6ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-3-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-2f8814b6ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-3-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Puedes <strong>migrar tu sitio web existente a nuestro servicio de hosting</strong> siguiendo nuestras instrucciones paso a paso. También ofrecemos asistencia y herramientas de migración para facilitar el proceso.</p>                        </div>
@@ -1548,7 +1590,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-4-75c853d">
-                        <a href="#collapse-e0326c26ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e0326c26ac1a513841b4" aria-expanded="false" aria-controls="Collapse-e0326c26ac1a513841b4">
+                        <a href="#collapse-e0326c26ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e0326c26ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-e0326c26ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1566,7 +1608,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-e0326c26ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-4-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-e0326c26ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-4-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Implementamos diversas medidas de seguridad, como <strong>firewalls, certificados SSL gratuitos, protección contra ataques DDoS, monitoreo de seguridad 24/7 y copias de seguridad automáticas</strong> para garantizar la seguridad de tu sitio web y los datos de tus usuarios.</p>                        </div>
@@ -1578,7 +1620,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-5-75c853d">
-                        <a href="#collapse-6f865346ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6f865346ac1a513841b4" aria-expanded="false" aria-controls="Collapse-6f865346ac1a513841b4">
+                        <a href="#collapse-6f865346ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6f865346ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-6f865346ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1596,7 +1638,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-6f865346ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-5-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-6f865346ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-5-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Sí, ofrecemos <strong>soporte técnico las 24 horas del día, los 7 días de la semana</strong>. Puedes contactarnos por teléfono, correo electrónico o chat en vivo para recibir asistencia con cualquier consulta o problema técnico que puedas tener.</p>                        </div>
@@ -1608,7 +1650,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-6-75c853d">
-                        <a href="#collapse-743407f6ac1a513841b4" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-743407f6ac1a513841b4" aria-expanded="false" aria-controls="Collapse-743407f6ac1a513841b4">
+                        <a href="#collapse-743407f6ac1d95c1ee98" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-743407f6ac1d95c1ee98" aria-expanded="false" aria-controls="Collapse-743407f6ac1d95c1ee98">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1626,7 +1668,7 @@ class="post-4973 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-743407f6ac1a513841b4" class=" collapse" aria-labelledby="primaryHeading-6-75c853d" data-parent="#accordion-6ac1a513841b4">
+                    <div id="Collapse-743407f6ac1d95c1ee98" class=" collapse" aria-labelledby="primaryHeading-6-75c853d" data-parent="#accordion-6ac1d95c1ee98">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Puedes actualizar fácilmente tu plan de hosting en cualquier momento a través de nuestro <strong>panel de control en línea</strong>. Simplemente selecciona el plan que mejor se adapte a tus necesidades actuales y realiza la actualización con unos pocos clics.</p>                        </div>
