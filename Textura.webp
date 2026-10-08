@@ -27,6 +27,7 @@
 <link rel="canonical" href="/" />
 <meta property="og:locale" content="es_ES" />
 <meta property="og:type" content="website" />
+<meta property="og:locale:alternate" content="en_US" />
 <meta property="og:title" content="Diseño de Páginas Web en Medellín | Agencia El Creativo Web" />
 <meta property="og:description" content="El Creativo Web es una agencia de diseño de páginas web en Medellín: sitios rápidos, autoadministrables y optimizados para Google que generan clientes." />
 <meta property="og:url" content="/" />
@@ -47,7 +48,7 @@
 <meta name="twitter:label2" content="Time to read" />
 <meta name="twitter:data2" content="4 minutos" />
 <script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"/#organization","name":"El Creativo Web","url":"/","email":"elcreativoweb@gmail.com","logo":{"@type":"ImageObject","@id":"/#logo","url":"/wp-content/uploads/2020/02/LOGO-ELCREATIVOWEB.webp","contentUrl":"/wp-content/uploads/2020/02/LOGO-ELCREATIVOWEB.webp","caption":"El Creativo Web","inLanguage":"es-CO","width":"200","height":"123"},"contactPoint":[{"@type":"ContactPoint","telephone":"3115831775","contactType":"customer support"}],"description":"\"Dise\u00f1o de paginas web en medellin, administramos digitalmente tu empresa, desarrollamos las especificaciones tecnicas de los requerimientos que necesites, manejo de redes sociales","legalName":"El Creativo Web S.A.S"},{"@type":"WebSite","@id":"/#website","url":"/","name":"El Creativo Web","publisher":{"@id":"/#organization"},"inLanguage":"es-CO","potentialAction":{"@type":"SearchAction","target":"/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"/wp-content/uploads/2024/02/web-alta-01.jpg","url":"/wp-content/uploads/2024/02/web-alta-01.jpg","width":"667","height":"667","inLanguage":"es-CO"},{"@type":"WebPage","@id":"/#webpage","url":"/","name":"Dise\u00f1o de P\u00e1ginas Web en Medell\u00edn | Agencia El Creativo Web","datePublished":"2017-09-16T17:44:41-05:00","dateModified":"2026-10-04T15:00:41-05:00","about":{"@id":"/#organization"},"isPartOf":{"@id":"/#website"},"primaryImageOfPage":{"@id":"/wp-content/uploads/2024/02/web-alta-01.jpg"},"inLanguage":"es-CO"}]}</script>
-<meta name="google-site-verification" content="XNfBJPNUFFGROq8i3tnbOiprDb5RByjwHcU7oW62ljE" />
+<meta name="google-site-verification" content="google5a6e337324db91d1.html" />
 <!-- /Plugin Rank Math WordPress SEO -->
 
 
@@ -136,10 +137,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		</script><script id="jquery-core-js" src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
 <script id="jquery-migrate-js" src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1"></script>
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 7.1.2" />
+<meta name="generator" content="WordPress 7.1.3" />
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="+ujPzG2AdFCJbbUZLb+4VQ" type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1"></script>
 
-<meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC9lbGNyZWF0aXZvd2ViLWNvbS5lY3d3ZWJzLmNvbT90aS1vbmxpbmUtdXNlcnMtZ29vZ2xlPTEmYW1wO3A9JTJGJmFtcDtfd3Bub25jZT0yNDZjODBjNzcyIn0=" /><script type="text/javascript">var elementskit_module_parallax_url = "/wp-content/plugins/elementskit/modules/parallax/";</script><style id="uagb-style-frontend-1470">.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media(max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media(max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}</style><link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-32x32.png" sizes="32x32" />
+<meta name="ti-site-data" content="eyJyIjoiMTowITc6MCEzMDowIiwibyI6Imh0dHBzOlwvXC9lbGNyZWF0aXZvd2ViLWNvbS5lY3d3ZWJzLmNvbT90aS1vbmxpbmUtdXNlcnMtZ29vZ2xlPTEmYW1wO3A9JTJGJmFtcDtfd3Bub25jZT0xZGFmYjExMDVmIn0=" /><script type="text/javascript">var elementskit_module_parallax_url = "/wp-content/plugins/elementskit/modules/parallax/";</script><style id="uagb-style-frontend-1470">.uag-blocks-common-selector{z-index:var(--z-index-desktop) !important}@media(max-width: 976px){.uag-blocks-common-selector{z-index:var(--z-index-tablet) !important}}@media(max-width: 767px){.uag-blocks-common-selector{z-index:var(--z-index-mobile) !important}}</style><link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-32x32.png" sizes="32x32" />
 <link rel="icon" href="/wp-content/uploads/2025/06/cropped-favicon-192x192.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="/wp-content/uploads/2025/06/cropped-favicon-180x180.png" />
 <meta name="msapplication-TileImage" content="/wp-content/uploads/2025/06/cropped-favicon-270x270.png" />
@@ -1852,7 +1853,107 @@ class="post-1470 page type-page status-publish has-post-thumbnail ast-article-si
 				<div class="elementor-widget-container">
 							<div class="swiper elementor-loop-container elementor-grid" role="list" dir="ltr">
 				<div class="swiper-wrapper" aria-live="off">
-		<style id="loop-5162">.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container{min-height:350px;}.elementor-5162 .elementor-element.elementor-element-78a80f3, .elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-background-overlay{border-radius:5px 5px 5px 5px;}.elementor-5162 .elementor-element.elementor-element-78a80f3{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);margin-top:8px;margin-bottom:8px;padding:1px 1px 1px 1px;overflow:visible;}.elementor-bc-flex-widget .elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-56c0fd0 img{border-radius:6px 6px 0px 0px;}.elementor-5162 .elementor-element.elementor-element-41c7e7e{text-align:center;}.elementor-5162 .elementor-element.elementor-element-41c7e7e .elementor-heading-title{font-size:18px;font-weight:700;}</style><style id="elementor-post-5162">.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container{min-height:350px;}.elementor-5162 .elementor-element.elementor-element-78a80f3, .elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-background-overlay{border-radius:5px 5px 5px 5px;}.elementor-5162 .elementor-element.elementor-element-78a80f3{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);margin-top:8px;margin-bottom:8px;padding:1px 1px 1px 1px;overflow:visible;}.elementor-bc-flex-widget .elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-56c0fd0 img{border-radius:6px 6px 0px 0px;}.elementor-5162 .elementor-element.elementor-element-41c7e7e{text-align:center;}.elementor-5162 .elementor-element.elementor-element-41c7e7e .elementor-heading-title{font-size:18px;font-weight:700;}</style>		<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10022 post-10022 post type-post status-publish format-standard has-post-thumbnail hentry category-aplicaciones ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+		<style id="loop-5162">.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container{min-height:350px;}.elementor-5162 .elementor-element.elementor-element-78a80f3, .elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-background-overlay{border-radius:5px 5px 5px 5px;}.elementor-5162 .elementor-element.elementor-element-78a80f3{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);margin-top:8px;margin-bottom:8px;padding:1px 1px 1px 1px;overflow:visible;}.elementor-bc-flex-widget .elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-56c0fd0 img{border-radius:6px 6px 0px 0px;}.elementor-5162 .elementor-element.elementor-element-41c7e7e{text-align:center;}.elementor-5162 .elementor-element.elementor-element-41c7e7e .elementor-heading-title{font-size:18px;font-weight:700;}</style><style id="elementor-post-5162">.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-container{min-height:350px;}.elementor-5162 .elementor-element.elementor-element-78a80f3, .elementor-5162 .elementor-element.elementor-element-78a80f3 > .elementor-background-overlay{border-radius:5px 5px 5px 5px;}.elementor-5162 .elementor-element.elementor-element-78a80f3{box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);margin-top:8px;margin-bottom:8px;padding:1px 1px 1px 1px;overflow:visible;}.elementor-bc-flex-widget .elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column .elementor-widget-wrap{align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-3e6399e.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:flex-start;align-items:flex-start;}.elementor-5162 .elementor-element.elementor-element-56c0fd0 img{border-radius:6px 6px 0px 0px;}.elementor-5162 .elementor-element.elementor-element-41c7e7e{text-align:center;}.elementor-5162 .elementor-element.elementor-element-41c7e7e .elementor-heading-title{font-size:18px;font-weight:700;}</style>		<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10030 post-10030 post type-post status-publish format-standard has-post-thumbnail hentry category-seo-y-posicionamiento ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="/seo-y-posicionamiento/perfil-de-empresa-en-google/">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Perfil de Empresa en Google cómo crearlo y optimizarlo paso a paso (1)" alt="Perfil de Empresa en Google cómo crearlo y optimizarlo paso a paso (1)" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Perfil-de-Empresa-en-Google-como-crearlo-y-optimizarlo-paso-a-paso-1-ruked1oy1y1thg04uwc38sr9fzxzd6sisylbzf7xyk.jpg" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default"><a href="/seo-y-posicionamiento/perfil-de-empresa-en-google/">Perfil de Empresa en Google: cómo crearlo y optimizarlo paso a paso</a></h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10031 post-10031 post type-post status-publish format-standard has-post-thumbnail hentry category-seo-y-posicionamiento ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="/seo-y-posicionamiento/seo-para-ecommerce/">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="SEO para ecommerce cómo posicionar tu tienda online en Google" alt="SEO para ecommerce cómo posicionar tu tienda online en Google" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/SEO-para-ecommerce-como-posicionar-tu-tienda-online-en-Google-ruke5mqs4zwdw6rw5oy1ko4cqkhqn5cr49bfou7r1o.avif" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default"><a href="/seo-y-posicionamiento/seo-para-ecommerce/">SEO para ecommerce: cómo posicionar tu tienda online en Google</a></h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10029 post-10029 post type-post status-publish format-standard has-post-thumbnail hentry category-tiendas-online ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="/tiendas-online/google-merchant-center-colombia/">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Google Merchant Center en Colombia cómo vender en Google Shopping" alt="Google Merchant Center en Colombia cómo vender en Google Shopping" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Google-Merchant-Center-en-Colombia-como-vender-en-Google-Shopping-rukdphuitdt6l67odpulrqphmg0wi7amwe5d3u51v0.avif" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default"><a href="/tiendas-online/google-merchant-center-colombia/">Google Merchant Center en Colombia: cómo vender en Google Shopping</a></h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10028 post-10028 post type-post status-publish format-standard has-post-thumbnail hentry category-tiendas-online ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="/tiendas-online/pasarelas-de-pago-en-colombia/">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Pasarelas de pago en Colombia 2026 comisiones, métodos y cuál elegir" alt="Pasarelas de pago en Colombia 2026 comisiones, métodos y cuál elegir" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Pasarelas-de-pago-en-Colombia-2026-comisiones-metodos-y-cual-elegir-rukckoos3by0inhpoksq0jg15767baa6aehg0cne0c.avif" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default"><a href="/tiendas-online/pasarelas-de-pago-en-colombia/">Pasarelas de pago en Colombia 2026: comisiones, métodos y cuál elegir</a></h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10032 post-10032 post type-post status-publish format-standard has-post-thumbnail hentry category-tiendas-online ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
+				<div class="elementor-widget-container">
+																<a href="/tiendas-online/migrar-a-shopify/">
+							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Cómo migrar tu tienda a Shopify sin perder ventas ni posicionamiento" alt="Cómo migrar tu tienda a Shopify sin perder ventas ni posicionamiento" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Como-migrar-tu-tienda-a-Shopify-sin-perder-ventas-ni-posicionamiento-rukbf8ywt97yphoin5zslhviepeozms5lb5ve836b0.avif" />								</a>
+															</div>
+				</div>
+				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default"><a href="/tiendas-online/migrar-a-shopify/">Cómo migrar tu tienda a Shopify sin perder ventas ni posicionamiento</a></h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10022 post-10022 post type-post status-publish format-standard has-post-thumbnail hentry category-aplicaciones ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
@@ -1866,106 +1967,6 @@ class="post-1470 page type-page status-publish has-post-thumbnail ast-article-si
 				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default"><a href="/aplicaciones/costos-de-desarrollo-backend-en-python-django-y-flask-en-colombia-2026/">costos de desarrollo backend en python django y flask en colombia 2026</a></h3>				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-10015 post-10015 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-de-software ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
-				<div class="elementor-widget-container">
-																<a href="/desarrollo-de-software/costos-de-desarrollo-web-en-colombia/">
-							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Costo Pagina Web" alt="Costo Pagina Web" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Costo-Pagina-Web-rudxog8z094eudh5akgzd3q78x48lhadgntp91a65o.jpg" />								</a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default"><a href="/desarrollo-de-software/costos-de-desarrollo-web-en-colombia/">Costos de desarrollo web en colombia</a></h3>				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-9259 post-9259 post type-post status-publish format-standard has-post-thumbnail hentry category-desarrollo-de-software category-fabrica-de-software ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
-				<div class="elementor-widget-container">
-																<a href="/desarrollo-de-software/empresas-desarrollo-software-colombia-2026/">
-							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Portrait of smiling coworkers looking over revenue figures on paperwork" alt="empresas de desarrollo de software en Colombia 2026" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/portrait-smiling-coworkers-looking-revenue-figures-paperwork-ror9mxut8ushhq5yoex7it7r2qk1mz6cqoo6h26x0s.jpg" />								</a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default"><a href="/desarrollo-de-software/empresas-desarrollo-software-colombia-2026/">Empresas de Desarrollo de Software en Colombia 2026</a></h3>				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-9972 post-9972 post type-post status-publish format-standard has-post-thumbnail hentry category-diseno-de-paginas-web category-automatizacion ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
-				<div class="elementor-widget-container">
-																<a href="/diseno-de-paginas-web/ux-como-hacer-que-una-pagina-web-sea-facil-de-usar/">
-							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="male-female-graphic-designers-interacting-computer (1)" alt="male-female-graphic-designers-interacting-computer (1)" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/male-female-graphic-designers-interacting-computer-1-rubzlgq8q5cdu496rhry79qi3eliws7ex1c76k51gs.jpg" />								</a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default"><a href="/diseno-de-paginas-web/ux-como-hacer-que-una-pagina-web-sea-facil-de-usar/">UX: ¿Cómo hacer que una página web sea fácil de usar?</a></h3>				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-9969 post-9969 post type-post status-publish format-standard has-post-thumbnail hentry category-aplicaciones ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
-				<div class="elementor-widget-container">
-																<a href="/aplicaciones/que-es-una-base-de-datos-y-por-que-tu-pagina-web-puede-necesitarla/">
-							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="Base de datos" alt="Base de datos" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/Base-de-datos-rubz5xg9rq2ry4tkha0xhov8n564ovj4g56amx6ab0.jpg" />								</a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default"><a href="/aplicaciones/que-es-una-base-de-datos-y-por-que-tu-pagina-web-puede-necesitarla/">¿Qué es una base de datos y por qué tu página web puede necesitarla?</a></h3>				</div>
-				</div>
-					</div>
-		</div>
-					</div>
-		</section>
-				</div>
-				<div data-elementor-type="loop-item" data-elementor-id="5162" class="elementor elementor-5162 swiper-slide e-loop-item e-loop-item-9966 post-9966 post type-post status-publish format-standard has-post-thumbnail hentry category-aplicaciones ast-article-single" data-elementor-post-type="elementor_library" role="group" aria-roledescription="slide" data-custom-edit-handle="1">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-78a80f3 elementor-section-height-min-height elementor-section-content-top elementor-section-items-top elementor-section-boxed elementor-section-height-default" data-id="78a80f3" data-element_type="section" data-e-type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;ekit_has_onepagescroll_dot&quot;:&quot;yes&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e6399e" data-id="3e6399e" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-56c0fd0 elementor-widget elementor-widget-theme-post-featured-image elementor-widget-image" data-id="56c0fd0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-featured-image.default">
-				<div class="elementor-widget-container">
-																<a href="/aplicaciones/que-es-una-api-la-conexion-que-hace-posible-la-web-moderna/">
-							<img decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;0&#039;%20height=&#039;0&#039;%20viewBox=&#039;0%200%200%200&#039;%3E%3C/svg%3E" title="person-working-html-computer (1)" alt="person-working-html-computer (1)" class="perfmatters-lazy" data-src="/wp-content/uploads/elementor/thumbs/person-working-html-computer-1-rubyoyh6deueblh1kxxfgz1miotjpm5lg54op2c6ng.jpg" />								</a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-41c7e7e elementor-widget elementor-widget-theme-post-title elementor-page-title elementor-widget-heading" data-id="41c7e7e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="theme-post-title.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default"><a href="/aplicaciones/que-es-una-api-la-conexion-que-hace-posible-la-web-moderna/">¿Qué es una API? La conexión que hace posible la web moderna</a></h3>				</div>
 				</div>
 					</div>
 		</div>
@@ -2503,7 +2504,7 @@ jQuery.uiBackCompat = true;
 </script>
 <script id="jquery-ui-core-js" src="/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2" defer></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"/wp-admin\/admin-ajax.php","uploadUrl":"/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f26a78ef57","atomicFormsSendForm":"a444814204"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1470,"title":"Dise%C3%B1o%20de%20P%C3%A1ginas%20Web%20en%20Medell%C3%ADn%20%7C%20Agencia%20El%20Creativo%20Web","excerpt":"","featuredImage":"/wp-content\/uploads\/2024\/02\/web-alta-01.jpg"}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.1.1","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"theme_builder_v2":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"/wp-admin\/admin-ajax.php","uploadUrl":"/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"589d11f9a9","atomicFormsSendForm":"5da1505570"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1470,"title":"Dise%C3%B1o%20de%20P%C3%A1ginas%20Web%20en%20Medell%C3%ADn%20%7C%20Agencia%20El%20Creativo%20Web","excerpt":"","featuredImage":"/wp-content\/uploads\/2024\/02\/web-alta-01.jpg"}};
 //# sourceURL=elementor-frontend-js-before
 </script>
 <script id="elementor-frontend-js" src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.1" defer></script>
@@ -2531,13 +2532,13 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"/wp-admin\/admin-ajax.php","nonce":"732e07e50c","urls":{"assets":"/wp-content\/plugins\/elementor-pro\/assets\/","rest":"/wp-json\/"},"settings":{"lazy_load_background_images":false},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"es_CO","app_id":""},"lottie":{"defaultAnimationUrl":"/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"/wp-admin\/admin-ajax.php","nonce":"6a4e718c03","urls":{"assets":"/wp-content\/plugins\/elementor-pro\/assets\/","rest":"/wp-json\/"},"settings":{"lazy_load_background_images":false},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"es_CO","app_id":""},"lottie":{"defaultAnimationUrl":"/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 //# sourceURL=elementor-pro-frontend-js-before
 </script>
 <script id="elementor-pro-frontend-js" src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.0" defer></script>
 <script id="pro-elements-handlers-js" src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.0" defer></script>
 <script id="elementskit-elementor-js-extra">
-var ekit_config = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"8598ff3a51","errorMessage":"Something went wrong. Please try again."};
+var ekit_config = {"ajaxurl":"/wp-admin/admin-ajax.php","nonce":"d28828306b","errorMessage":"Something went wrong. Please try again."};
 //# sourceURL=elementskit-elementor-js-extra
 </script>
 <script id="elementskit-elementor-js" src="/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.9.6" defer></script>
