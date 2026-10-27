@@ -1078,6 +1078,19 @@ a.__cf_email__{color:#3d7a1f!important;font-weight:600}
 .ecw2 .introcard .imgp img.circ{max-width:100%;width:100%;height:auto}
 @media(max-width:820px){.ecw2 .introcard{grid-template-columns:1fr}.ecw2 .introcard .icl{padding:36px 22px}.ecw2 .introcard .imgp{padding:26px}}
 
+/* ECW paginacion blog */
+nav.elementor-pagination{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 14px}
+nav.elementor-pagination a.page-numbers:not(.prev):not(.next){display:none}
+nav.elementor-pagination .page-numbers.current,
+nav.elementor-pagination .current + a.page-numbers:not(.next),
+nav.elementor-pagination .current + a.page-numbers + a.page-numbers:not(.next),
+nav.elementor-pagination a.page-numbers:has(+ .current),
+nav.elementor-pagination a.page-numbers:has(+ a.page-numbers + .current){display:inline-block}
+nav.elementor-pagination .page-numbers{padding:6px 4px}
+
+/* ECW paginacion blog 2 */
+nav.elementor-pagination a.page-numbers:not(.prev):not(.next):has(+ .current){display:inline-block}
+
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
 
@@ -1734,12 +1747,12 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
 				<div class="elementor-element elementor-element-75c853d elementor-widget elementor-widget-elementskit-accordion" data-id="75c853d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
-        <div class="elementskit-accordion accoedion-primary" id="accordion-6ae01a64ad304">
+        <div class="elementskit-accordion accoedion-primary" id="accordion-6ae02e97bb3c7">
 
             
                 <div class="elementskit-card active">
                     <div class="elementskit-card-header" id="primaryHeading-0-75c853d">
-                        <a href="#collapse-0d45fee6ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0d45fee6ae01a64ad304" aria-expanded="true" aria-controls="Collapse-0d45fee6ae01a64ad304">
+                        <a href="#collapse-0d45fee6ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0d45fee6ae02e97bb3c7" aria-expanded="true" aria-controls="Collapse-0d45fee6ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1757,7 +1770,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-0d45fee6ae01a64ad304" class=" show collapse" aria-labelledby="primaryHeading-0-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-0d45fee6ae02e97bb3c7" class=" show collapse" aria-labelledby="primaryHeading-0-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Un Certificado SSL (Secure Sockets Layer) es un <strong>protocolo de seguridad estándar que cifra la comunicación entre el navegador del usuario y el servidor web</strong>. Es importante porque protege la privacidad de la información transmitida, como datos personales y de pago, y establece la confianza entre el sitio web y sus visitantes.</p>                        </div>
@@ -1769,7 +1782,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-1-75c853d">
-                        <a href="#collapse-d7639f56ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d7639f56ae01a64ad304" aria-expanded="false" aria-controls="Collapse-d7639f56ae01a64ad304">
+                        <a href="#collapse-d7639f56ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d7639f56ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-d7639f56ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1787,7 +1800,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-d7639f56ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-1-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-d7639f56ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-1-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Puedes identificar fácilmente si un sitio web tiene un Certificado SSL instalado al <strong>verificar la presencia del candado de seguridad en la barra de direcciones del navegador y el prefijo "https://" en la URL del sitio</strong>. Si ves estos indicadores, significa que la conexión está protegida por SSL.</p>                        </div>
@@ -1799,7 +1812,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-2-75c853d">
-                        <a href="#collapse-b3831ed6ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b3831ed6ae01a64ad304" aria-expanded="false" aria-controls="Collapse-b3831ed6ae01a64ad304">
+                        <a href="#collapse-b3831ed6ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-b3831ed6ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-b3831ed6ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1817,7 +1830,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-b3831ed6ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-2-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-b3831ed6ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-2-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>En El Creativo Web ofrecemos una variedad de Certificados SSL, incluyendo:</p><ul><li><strong>Certificados de Validación Extendida</strong> (EV SSL)</li><li><strong>Certificados de Validación de la Organización</strong> (OV SSL)</li><li><strong>Certificados de Dominio Validado</strong> (DV SSL)</li></ul><p>Adaptados a las necesidades específicas de tu negocio.</p>                        </div>
@@ -1829,7 +1842,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-3-75c853d">
-                        <a href="#collapse-2f8814b6ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2f8814b6ae01a64ad304" aria-expanded="false" aria-controls="Collapse-2f8814b6ae01a64ad304">
+                        <a href="#collapse-2f8814b6ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2f8814b6ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-2f8814b6ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1847,7 +1860,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-2f8814b6ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-3-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-2f8814b6ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-3-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>El tiempo de activación de un Certificado SSL depende del tipo de certificado y del proceso de validación requerido. En general, <strong>la mayoría de los certificados se activan dentro de las 24-48 horas posteriores a la solicitud y validación</strong> de la información.</p>                        </div>
@@ -1859,7 +1872,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-4-75c853d">
-                        <a href="#collapse-e0326c26ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e0326c26ae01a64ad304" aria-expanded="false" aria-controls="Collapse-e0326c26ae01a64ad304">
+                        <a href="#collapse-e0326c26ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e0326c26ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-e0326c26ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1877,7 +1890,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-e0326c26ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-4-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-e0326c26ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-4-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Si tu Certificado SSL caduca, tu sitio web puede <strong>mostrar advertencias de seguridad a los visitantes</strong>, lo que puede afectar la confianza y credibilidad de tu sitio. Es importante renovar el Certificado SSL antes de su fecha de vencimiento para <strong>evitar interrupciones en la seguridad del sitio</strong>.</p>                        </div>
@@ -1889,7 +1902,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-5-75c853d">
-                        <a href="#collapse-6f865346ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6f865346ae01a64ad304" aria-expanded="false" aria-controls="Collapse-6f865346ae01a64ad304">
+                        <a href="#collapse-6f865346ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-6f865346ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-6f865346ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1907,7 +1920,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-6f865346ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-5-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-6f865346ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-5-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Los motores de búsqueda, como Google, <strong>favorecen a los sitios web seguros en sus algoritmos de clasificación</strong>. Por lo tanto, tener un Certificado SSL puede <strong>mejorar el posicionamiento de tu sitio web en los resultados de búsqueda</strong>, lo que puede aumentar la visibilidad y el tráfico orgánico.</p>                        </div>
@@ -1919,7 +1932,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-6-75c853d">
-                        <a href="#collapse-743407f6ae01a64ad304" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-743407f6ae01a64ad304" aria-expanded="false" aria-controls="Collapse-743407f6ae01a64ad304">
+                        <a href="#collapse-743407f6ae02e97bb3c7" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-743407f6ae02e97bb3c7" aria-expanded="false" aria-controls="Collapse-743407f6ae02e97bb3c7">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1937,7 +1950,7 @@ class="post-4993 page type-page status-publish has-post-thumbnail ast-article-si
                                                     </a>
                     </div>
 
-                    <div id="Collapse-743407f6ae01a64ad304" class=" collapse" aria-labelledby="primaryHeading-6-75c853d" data-parent="#accordion-6ae01a64ad304">
+                    <div id="Collapse-743407f6ae02e97bb3c7" class=" collapse" aria-labelledby="primaryHeading-6-75c853d" data-parent="#accordion-6ae02e97bb3c7">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Aunque tu sitio web no recopile información sensible, <strong>tener un Certificado SSL sigue siendo importante para proteger la integridad de la comunicación entre el servidor y el navegador del usuario</strong>. Además, ayuda a mejorar la confianza de los visitantes y puede mejorar el posicionamiento en los motores de búsqueda.</p>                        </div>
