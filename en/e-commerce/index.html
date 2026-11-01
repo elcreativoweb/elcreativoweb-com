@@ -1113,6 +1113,24 @@ nav.elementor-pagination .page-numbers{padding:6px 4px}
 /* ECW paginacion blog 2 */
 nav.elementor-pagination a.page-numbers:not(.prev):not(.next):has(+ .current){display:inline-block}
 
+/* Tablas de precios ElementsKit: centrado y alturas parejas */
+.elementskit-single-pricing{display:flex;flex-direction:column;height:100%;text-align:center}
+.elementskit-single-pricing .elementskit-pricing-header{display:flex;flex-direction:column;align-items:center;text-align:center}
+.elementskit-single-pricing .elementskit-pricing-title{min-height:2.4em;display:flex;align-items:center;justify-content:center;text-align:center;margin-left:auto;margin-right:auto}
+.elementskit-single-pricing .elementskit-pricing-price-wraper{display:flex;justify-content:center;text-align:center}
+.elementskit-single-pricing .elementskit-pricing-content{flex:1 1 auto}
+.elementskit-single-pricing .elementskit-pricing-lists{padding:0;margin:0 auto;list-style:none;text-align:center}
+.elementskit-single-pricing .elementskit-pricing-lists li{display:flex;flex-wrap:nowrap;align-items:center;justify-content:center;gap:6px;text-align:center;margin-left:0;padding:4px 0;line-height:1.4}
+.elementskit-single-pricing .ekit-pricing-list-info{position:static;display:inline-flex;align-items:center;flex:0 0 auto}
+.elementskit-single-pricing .elementskit-pricing-btn-wraper{margin-top:auto;display:flex;justify-content:center;text-align:center}
+.elementor-widget-elementskit-pricing,.elementor-widget-elementskit-pricing>.elementor-widget-container,.elementor-widget-elementskit-pricing .ekit-wid-con{height:100%}
+
+/* Ajuste centrado lista de precios */
+.elementskit-single-pricing .elementskit-pricing-lists{width:100%!important;max-width:100%!important;margin:0!important;padding:0!important;transform:none!important;left:auto!important;right:auto!important}
+.elementskit-single-pricing .elementskit-pricing-lists li{display:block!important;width:100%;text-align:center!important;margin:0!important;padding:4px 0!important}
+.elementskit-single-pricing .elementskit-pricing-lists li .ekit-pricing-list-info{display:inline-block!important;position:relative!important;vertical-align:middle;margin:0 0 0 6px!important;left:auto!important;right:auto!important;top:auto!important}
+.elementskit-single-pricing .elementskit-pricing-lists li .ekit-pricing-list-info svg{vertical-align:middle}
+
 </style>
 <style>.perfmatters-lazy-youtube{position:relative;width:100%;max-width:100%;height:0;padding-bottom:56.23%;overflow:hidden}.perfmatters-lazy-youtube img{position:absolute;top:0;right:0;bottom:0;left:0;display:block;width:100%;max-width:100%;height:auto;margin:auto;border:none;cursor:pointer;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all}.perfmatters-lazy-youtube img:hover{-webkit-filter:brightness(75%)}.perfmatters-lazy-youtube .play{position:absolute;top:50%;left:50%;right:auto;width:68px;height:48px;margin-left:-34px;margin-top:-24px;background:url(/wp-content/plugins/perfmatters/img/youtube.svg) no-repeat;background-position:center;background-size:cover;pointer-events:none;filter:grayscale(1)}.perfmatters-lazy-youtube:hover .play{filter:grayscale(0)}.perfmatters-lazy-youtube iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:99}.wp-has-aspect-ratio .wp-block-embed__wrapper{position:relative;}.wp-has-aspect-ratio .perfmatters-lazy-youtube{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;padding-bottom:0}</style></head>
 
@@ -1737,12 +1755,12 @@ E-commerce continues to evolve with the development of new technologies, such as
 				<div class="elementor-element elementor-element-5e5f226 elementor-widget elementor-widget-elementskit-accordion" data-id="5e5f226" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-accordion.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con" >
-        <div class="elementskit-accordion accoedion-primary" id="accordion-6ae65177422fa">
+        <div class="elementskit-accordion accoedion-primary" id="accordion-6ae67f1694f02">
 
             
                 <div class="elementskit-card active">
                     <div class="elementskit-card-header" id="primaryHeading-0-5e5f226">
-                        <a href="#collapse-17e10126ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-17e10126ae65177422fa" aria-expanded="true" aria-controls="Collapse-17e10126ae65177422fa">
+                        <a href="#collapse-17e10126ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-17e10126ae67f1694f02" aria-expanded="true" aria-controls="Collapse-17e10126ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1760,7 +1778,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-17e10126ae65177422fa" class=" show collapse" aria-labelledby="primaryHeading-0-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-17e10126ae67f1694f02" class=" show collapse" aria-labelledby="primaryHeading-0-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We offer a wide range of eCommerce services, including online store design and development, user experience optimization, digital marketing strategies to increase sales, advertising campaign management, and more.</p>                        </div>
@@ -1772,7 +1790,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-1-5e5f226">
-                        <a href="#collapse-f65a9d76ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f65a9d76ae65177422fa" aria-expanded="false" aria-controls="Collapse-f65a9d76ae65177422fa">
+                        <a href="#collapse-f65a9d76ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-f65a9d76ae67f1694f02" aria-expanded="false" aria-controls="Collapse-f65a9d76ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1790,7 +1808,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-f65a9d76ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-1-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-f65a9d76ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-1-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We perform an analysis of your business needs, the type of products you sell, and your specific objectives. Then, we recommend the eCommerce platform that best suits your requirements, such as Shopify, WooCommerce, Magento, among others.</p>                        </div>
@@ -1802,7 +1820,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-2-5e5f226">
-                        <a href="#collapse-e59da006ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e59da006ae65177422fa" aria-expanded="false" aria-controls="Collapse-e59da006ae65177422fa">
+                        <a href="#collapse-e59da006ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-e59da006ae67f1694f02" aria-expanded="false" aria-controls="Collapse-e59da006ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1820,7 +1838,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-e59da006ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-2-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-e59da006ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-2-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Development time can vary depending on the complexity of the project and the number of products to be listed. We can usually deliver a basic store within a few weeks, while larger projects can take several months.</p>                        </div>
@@ -1832,7 +1850,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-3-5e5f226">
-                        <a href="#collapse-c1b1bda6ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-c1b1bda6ae65177422fa" aria-expanded="false" aria-controls="Collapse-c1b1bda6ae65177422fa">
+                        <a href="#collapse-c1b1bda6ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-c1b1bda6ae67f1694f02" aria-expanded="false" aria-controls="Collapse-c1b1bda6ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1850,7 +1868,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-c1b1bda6ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-3-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-c1b1bda6ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-3-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Yes, as a digital marketing agency, we can integrate inventory and logistics management solutions into your online store, making it easier to track your products and process orders.</p>                        </div>
@@ -1862,7 +1880,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-4-5e5f226">
-                        <a href="#collapse-19305a06ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-19305a06ae65177422fa" aria-expanded="false" aria-controls="Collapse-19305a06ae65177422fa">
+                        <a href="#collapse-19305a06ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-19305a06ae67f1694f02" aria-expanded="false" aria-controls="Collapse-19305a06ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1880,7 +1898,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-19305a06ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-4-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-19305a06ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-4-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We implement CRO (Conversion Rate Optimization) strategies that include improvements in site design and usability, effective calls to action, optimized product pages, upselling and cross-selling strategies, among others.</p>                        </div>
@@ -1892,7 +1910,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-5-5e5f226">
-                        <a href="#collapse-04727f16ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-04727f16ae65177422fa" aria-expanded="false" aria-controls="Collapse-04727f16ae65177422fa">
+                        <a href="#collapse-04727f16ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-04727f16ae67f1694f02" aria-expanded="false" aria-controls="Collapse-04727f16ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1910,7 +1928,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-04727f16ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-5-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-04727f16ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-5-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We implement security and encryption measures to ensure the protection of your customers' data and the transactions carried out in your online store, complying with applicable regulations and laws.</p>                        </div>
@@ -1922,7 +1940,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-6-5e5f226">
-                        <a href="#collapse-0cbd7626ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0cbd7626ae65177422fa" aria-expanded="false" aria-controls="Collapse-0cbd7626ae65177422fa">
+                        <a href="#collapse-0cbd7626ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-0cbd7626ae67f1694f02" aria-expanded="false" aria-controls="Collapse-0cbd7626ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1940,7 +1958,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-0cbd7626ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-6-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-0cbd7626ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-6-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Yes, we offer eCommerce-specific digital marketing services, such as setting up and managing Google Shopping campaigns, Facebook and Instagram ads, remarketing, and more, to boost sales and visibility for your store.</p>                        </div>
@@ -1952,7 +1970,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-7-5e5f226">
-                        <a href="#collapse-d01d1bb6ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d01d1bb6ae65177422fa" aria-expanded="false" aria-controls="Collapse-d01d1bb6ae65177422fa">
+                        <a href="#collapse-d01d1bb6ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-d01d1bb6ae67f1694f02" aria-expanded="false" aria-controls="Collapse-d01d1bb6ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -1970,7 +1988,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-d01d1bb6ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-7-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-d01d1bb6ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-7-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We perform technical optimizations on the site, such as image compression, caching, and code improvement, to ensure fast loading speeds and a smooth user experience.</p>                        </div>
@@ -1982,7 +2000,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-8-5e5f226">
-                        <a href="#collapse-ec595666ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ec595666ae65177422fa" aria-expanded="false" aria-controls="Collapse-ec595666ae65177422fa">
+                        <a href="#collapse-ec595666ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-ec595666ae67f1694f02" aria-expanded="false" aria-controls="Collapse-ec595666ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2000,7 +2018,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-ec595666ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-8-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-ec595666ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-8-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>Yes, we implement web analytics tools, such as Google Analytics, to track important metrics like traffic, conversions, cart abandonment rates, and more, to make data-driven improvements.</p>                        </div>
@@ -2012,7 +2030,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                 
                 <div class="elementskit-card ">
                     <div class="elementskit-card-header" id="primaryHeading-9-5e5f226">
-                        <a href="#collapse-2ad84826ae65177422fa" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2ad84826ae65177422fa" aria-expanded="false" aria-controls="Collapse-2ad84826ae65177422fa">
+                        <a href="#collapse-2ad84826ae67f1694f02" class="ekit-accordion--toggler elementskit-btn-link collapsed" data-ekit-toggle="collapse" data-target="#Collapse-2ad84826ae67f1694f02" aria-expanded="false" aria-controls="Collapse-2ad84826ae67f1694f02">
                                                             <div class="ekit_accordion_icon_left_group">
                                     <div class="ekit_accordion_normal_icon">
                                         <!-- Normal Icon -->
@@ -2030,7 +2048,7 @@ E-commerce continues to evolve with the development of new technologies, such as
                                                     </a>
                     </div>
 
-                    <div id="Collapse-2ad84826ae65177422fa" class=" collapse" aria-labelledby="primaryHeading-9-5e5f226" data-parent="#accordion-6ae65177422fa">
+                    <div id="Collapse-2ad84826ae67f1694f02" class=" collapse" aria-labelledby="primaryHeading-9-5e5f226" data-parent="#accordion-6ae67f1694f02">
 
                         <div class="elementskit-card-body ekit-accordion--content">
                             <p>We offer ongoing support and maintenance to ensure the proper functioning of your online store, troubleshoot technical issues, and update content as needed. Costs are included if there are multiple adjustments.</p>                        </div>
